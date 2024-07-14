@@ -4,6 +4,8 @@
     based on a given input text using a pre-trained transformer model that is defined in settings.py.
 """
 
+pip install transformers
+
 import traceback
 from pathlib import Path
 from threading import Lock

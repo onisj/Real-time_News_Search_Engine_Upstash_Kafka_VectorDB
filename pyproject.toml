@@ -2,8 +2,9 @@
 name = "upstash-ingest"
 version = "0.1.0"
 description = ""
-authors = ["razvantalex <alexandrurazvant@gmail.com>"]
+authors = ["oni_sj <oni_sj@outlook.com>"]
 readme = "README.md"
+repository = "https://github.com/onisj/Real-time_News_Search_Engine_Upstash_Kafka_VectorDB/tree/main/test"
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.9.7 || >3.9.7,<4.0"
@@ -15,7 +16,7 @@ bytewax = "^0.19.0"
 newsdataapi = "^0.1.11"
 newsapi-python = "^0.2.7"
 requests = "^2.31.0"
-transformers = "^4.38.2"
+transformers = "^4.42.4"
 upstash-vector = "^0.2.1"
 fire = "^0.6.0"
 torch = "^2.2.1"

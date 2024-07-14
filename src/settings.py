@@ -8,7 +8,7 @@ dir_path = os.path.dirname(os.path.realpath(__file__))
 
 class AppSettings(BaseSettings):
     model_config = SettingsConfigDict(
-        env_file=os.path.join(dir_path, "..", "./.env"), env_file_encoding="utf-8"
+        env_file=os.path.join(dir_path, "..", "./test/.env"), env_file_encoding="utf-8"
     )
 
     UPSTASH_KAFKA_UNAME: str

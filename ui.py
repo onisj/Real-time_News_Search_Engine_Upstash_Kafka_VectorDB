@@ -9,10 +9,14 @@
         It might take a few seconds to load the images, because they are downloaded from the web.
 """
 
+import sys
+import os
 from io import BytesIO
 import requests
 import streamlit as st
 from PIL import Image
+
+
 from src.embeddings import TextEmbedder
 from src.settings import settings
 from src.cleaners import clean_full
